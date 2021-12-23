@@ -409,6 +409,19 @@ export default {
   color: #ffffff;
   padding: 0.5rem 1rem;
 }
+.form-btn:hover{
+  border-color: #344887;
+  background: linear-gradient(0deg, rgba(196, 209, 255, 0.1), rgba(196, 209, 255, 0.1)), #344887;
+}
+.form-btn:active{
+  background: #7B61FF;
+  border: 1px dashed #7B61FF;
+}
+.form-btn:disabled{
+  border-color: rgba(119, 119, 119, 0.1);
+  background: rgba(119, 119, 119, 0.1);
+  color: #999999;
+}
 .select {
   border: none;
   position: relative;
